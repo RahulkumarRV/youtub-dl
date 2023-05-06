@@ -2,9 +2,9 @@
   "name": "social-media-downloader-gusfahmi",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node index.js"
   },
   "author": "Gusfahmi Alghazali Caniago",
   "license": "ISC",

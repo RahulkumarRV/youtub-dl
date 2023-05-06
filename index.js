@@ -152,7 +152,7 @@ app.get("/view", async (req, res) => {
     });
 });
 
-server.listen(8080, () => {
+server.listen(8080 || process.env.PORT, () => {
   console.log("listening on *:" + 8080);
 });
 console.log("bum bum bum bum");
