@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    align-items: center;
+    justify-content: start;
+    height: 100px;
+    padding: 1rem;
+    background-color: #212A3E;
+}
+
+nav > img{
+    width: 50px;
+    height: 50px;
+}
+
+nav > h4{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+}
+
+#search{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #212A3E;
+}
+
+form{
+    font-size: 2rem;
+    font-style: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form > input {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+}
+
+form > button{
+    height: 50px;
+    padding: 0px 10px;
+    background-color: #FF6969;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+#video-container{
+    width: 100vw;
+    background-color: aliceblue;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-container > #video-el{
+    width: 400px;
+    height: 300px;
+}
+
+#video-container > #download_btn{
+    padding: 5px 10px;
+    border: 1px solid #212A3E;
+    background-color: #539165;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
